@@ -33,6 +33,8 @@ class Program
     }
 
     static (long, bool) metodoDos() => (22, true);
+    
+    static string metodoTres() => "Hola Mundo";
         
     static void saludar() => Console.WriteLine(resultado);
 }
